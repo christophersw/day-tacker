@@ -1,3 +1,9 @@
+# Dist
+dist
+
+# Config 
+config/development.json
+
 # Logs
 logs
 *.log

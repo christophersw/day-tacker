@@ -1,0 +1,42 @@
+{
+  "name": "day-tacker",
+  "version": "1.0.0",
+  "description": "A tool to see where your time goes. ",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophersw/day-tacker.git"
+  },
+  "author": "Christopher Webster <christophersw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophersw/day-tacker/issues"
+  },
+  "homepage": "https://github.com/christophersw/day-tacker#readme",
+  "dependencies": {
+    "@types/azure": "^0.9.19",
+    "@types/config": "0.0.32",
+    "@types/express": "^4.0.35",
+    "@types/log4js": "0.0.32",
+    "@types/q": "^1.0.0",
+    "azure-storage": "^2.1.0",
+    "config": "^1.26.1",
+    "express": "^4.15.2",
+    "log4js": "^1.1.1",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-typescript": "^3.1.6",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "merge2": "^1.0.3",
+    "yargs": "^8.0.1"
+  }
+}
